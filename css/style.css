@@ -1,11 +1,11 @@
  html {
- 	position: relative;
+  position: relative;
   min-height: 100%;
 }
 
 body {
-	background-color: #43B4D3;
-	margin-bottom: 60px;
+  background-color: #43B4D3;
+  margin-bottom: 60px;
 }
 
 footer {
@@ -17,59 +17,59 @@ footer {
 }
 
 .jumbotron {
-	background-color: #F1DEDE;
+  background-color: #F1DEDE;
 }
 
 h1 {
-	font-family: helvetica;
-	font-weight: 200;
-	color: rgb(4, 112, 171); 
+  font-family: helvetica;
+  font-weight: 200;
+  color: rgb(4, 112, 171); 
 }
 
 label {
-	font-size: 18px;
-	color: rgb(37, 59, 86);
+  font-size: 18px;
+  color: rgb(37, 59, 86);
 }
 
 p {
-	color: rgb(37, 59, 86);
+  color: rgb(37, 59, 86);
 }
 
 button {
-	margin-top: 14px;
+  margin-top: 14px;
 }
 
 .btn-color {
-	background-color: rgb(37, 59, 86);
-	color: white;
+  background-color: rgb(37, 59, 86);
+  color: white;
 }
 
 .btn-color:hover {
-	background-color: rgb(4, 112, 171); 
-	color: white;
+  background-color: rgb(4, 112, 171); 
+  color: white;
 }
 
 .checkbox-label {
-	margin-top: 14px;
-	margin-bottom: 0px;
+  margin-top: 14px;
+  margin-bottom: 0px;
 }
 
 .textarea-label {
-	margin-top: 14px;
+  margin-top: 14px;
 }
 
 footer {
-	font-size: 14px;
-	color: #5D576B;
+  font-size: 14px;
+  color: #5D576B;
 }
 
 .fa {
-	padding: 5px;
-	color: #5D576B;
+  padding: 5px;
+  color: #5D576B;
 }
 
 footer p{
-	color: #5D576B;
+  color: #5D576B;
 }
 
 /*
@@ -78,55 +78,55 @@ footer p{
 
 /* TABLET */
 @media(min-width:768px) and (max-width:991px) {
-	.input-small {
-		width: 90px;
-	}
-	
-	.checkboxes {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: space-between;
-	}
+  .input-small {
+    width: 90px;
+  }
+  
+  .checkboxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
 
-	.radio-group {
-		display: flex;
-		flex-flow: row wrap;
-		align-items: baseline;
-	}
+  .radio-group {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+  }
 
-	.radio-label {
-		flex-grow: 1;
-	}
+  .radio-label {
+    flex-grow: 1;
+  }
 
-	.radio {
-		flex-grow: 17;
-	}
+  .radio {
+    flex-grow: 17;
+  }
 }
 
 /* DESKTOP & LAPTOP */
 
 @media(min-width:992px) {
   .input-small {
-		width: 90px;
-	}
+    width: 90px;
+  }
 
-	.radio-group {
-		display: flex;
-		flex-flow: row wrap;
-		align-items: baseline;
-	}
+  .radio-group {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+  }
 
-	.radio-label {
-		flex-grow: 1;
-	}
+  .radio-label {
+    flex-grow: 1;
+  }
 
-	.radio {
-		flex-grow: 17;
-	}
+  .radio {
+    flex-grow: 17;
+  }
 
-	.jumbotron {
-		max-width: 800px;
-	}
+  .jumbotron {
+    max-width: 800px;
+  }
 
 }
 
